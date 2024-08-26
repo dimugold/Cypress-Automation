@@ -1,0 +1,19 @@
+{
+    "navMenu":".shop-menu > .nav >",
+    "headingSize2":"h2",
+    "userInput":"input",
+    "genderRadio":"[type='radio']",
+    "textInput":"[type='text']",
+    "select":"select",
+    "password":"[data-qa='password']",
+    "newsletterCheckbox":"[type='checkbox']",
+    "submit_btn":"button",
+    "submit":"[data-qa='signup-button']",
+    "contineVerifySize":"b",
+    "contineSignupButton":".btn.btn-primary",
+    "loginEmail":"[type='email']",
+    "loginPassword":"[type='password']",
+    "paragraph":"p",
+    "navigationMenu":":nth-child(10) > a"
+
+}
