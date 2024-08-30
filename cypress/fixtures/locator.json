@@ -14,6 +14,20 @@
     "loginEmail":"[type='email']",
     "loginPassword":"[type='password']",
     "paragraph":"p",
-    "navigationMenu":":nth-child(10) > a"
-
+    "navigationMenu":":nth-child(10) > a",
+    "productTitle":".title",
+    "productSideNavBar":".left-sidebar > :nth-child(1)",
+    "productSelect":".product-image-wrapper > .choose > .nav > li > a",
+    "productInformation":".product-information > ",
+    "viewCart":"u",
+    "searchProduct":"#search_product",
+    "cartPrice":".cart_price",
+    "cartDescription":".cart_description",
+    "cartProduct":".cart_product",
+    "cartQuantity":".cart_quantity",
+    "cartTotal":".cart_total",
+    "cartItemDelete":".cart_quantity_delete",
+    "buttonBtn":".btn",
+    "newCartAdd":"#empty_cart > .text-center > a > u",
+    "redirectToLogin":".modal-body > :nth-child(2) > a > u"
 }

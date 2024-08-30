@@ -1,6 +1,6 @@
 import { CommonActions } from "../actions/commonActions";
 import data from "../../fixtures/locator.json";
-import { fa, faker } from "@faker-js/faker";
+import { faker } from "@faker-js/faker";
 const sharedContext = new CommonActions;
 
 const randomName = faker.person.fullName();

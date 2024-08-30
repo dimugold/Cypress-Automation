@@ -38,16 +38,18 @@ export class CommonActions{
         cy.get(locator).eq(index).check({ force });
     }   
     containsText(locator, text) {
-        cy.get(locator).should('contain.text', text).click();
+        cy.get(locator).should('contain.text', text);
     }
     containsTextIndx(locator, index, text) {
-        cy.get(locator).eq(index).should('contain.text', text).click();
+        cy.get(locator).eq(index).should('contain.text', text);
     }
   
     clickContain(locator, input){
         cy.get(locator).contains(input).click()
     }
-
+    clickContainIndex(locator,index, input){
+        cy.get(locator).eq(index).contains(input).click()
+    }
     waitForRequest(){
         cy.intercept('**').as('requests')
         cy.wait('@requests')
